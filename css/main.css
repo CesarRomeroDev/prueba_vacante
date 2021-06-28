@@ -11,34 +11,82 @@ html{
 }
 header{
     width: 100%;
-    height: 176px;
+    height: 83%;
 }
 header div .first{
-    padding-top: 20px;
+    padding-top: 25px;
+    font-size: 2vw;
 }
 header div .second{
-    margin: 5px 5px;
-    font-size: 4rem;
-    font-weight:bold;
-    letter-spacing: 0.8rem;   
+    margin-bottom: 0px;
+    font-size: 10vw;
+    font-weight:800;
+    letter-spacing: 2vw;   
 }
 header .nav-center-section{
+    height: 10%;
     display: flex;
     justify-content: space-around;
     box-shadow: none;
-    text-decoration: none;
-    font-size: 1rem;
+    background: white;
+    color: black;
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
 }
-.listaguion li:before{content: "-"}
-
+header .nav-center-section li{
+    margin-left: 5px;
+    margin-bottom: -12px;
+}
 section img{
     width: 100%;
 }
-
 main .main-title h6{
     margin-top: 20px;
     font-weight: 800;
+    font-size: 3vw;
+}
+main .main-title p{
+    margin: 5px 0px 10px 0px;
+    font-size: 2.6vw;
+}
+main .row .col{
+    padding: 0px;
+}
+main .main-columns .text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.2vw;
 }
 main .main-columns img{
     width: 100%;
+}
+main .main-columns .package{
+    font-size: 2.1vw;
+}
+main .main-columns .package ul{
+    margin: 0px;
+    padding: 0px 0px 10px 15px ;
+    background: rgb(218 217 214);
+}
+main .main-columns .package ul .santorini{
+    font-weight: 800;
+    font-size: 2.5vw;
+}
+main .main-columns .package ul li:nth-child(n+2) { 
+    font-weight: 700;
+    font-size: 1.9vw;
+}
+main .main-columns .package2{
+    font-size: 2.1vw;
+}
+main .main-columns .package2 ul{
+    margin: 0px;
+    padding: 5px 0px 0px 7px;
+}
+main .main-columns .package2 ul .sedan{
+    font-weight: 800;
+    font-size: 2vw;
+}
+main .main-columns .package2 ul li:nth-child(n+2) { 
+    font-size: 2vw;
 }
