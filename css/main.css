@@ -11,14 +11,14 @@ html{
 }
 header{
     width: 100%;
-    height: 83%;
+    height: 50%;
 }
 header div .first{
-    padding-top: 25px;
+    margin-top: 20px;
     font-size: 2vw;
 }
 header div .second{
-    margin-bottom: 0px;
+    margin: 0px;
     font-size: 10vw;
     font-weight:800;
     letter-spacing: 2vw;   
@@ -31,11 +31,13 @@ header .nav-center-section{
     background: white;
     color: black;
     font-size: 2.5vw;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.3vw;
+}
+header .nav-center-section ul{
+    margin: -10px;
 }
 header .nav-center-section li{
     margin-left: 5px;
-    margin-bottom: -12px;
 }
 section img{
     width: 100%;
@@ -89,4 +91,31 @@ main .main-columns .package2 ul .sedan{
 }
 main .main-columns .package2 ul li:nth-child(n+2) { 
     font-size: 2vw;
+}
+main .row .mikonos-section{
+    padding: 0px;
+}
+main .mikonos-section img{
+    width: 100%;
+}
+main .mikonos-section .duration{
+    padding-left: 17%;
+}
+main .mikonos-section .duration p{
+    font-size: 1.5vw;
+    margin: 0px;
+}
+main .mikonos-section .duration ul{
+    font-size: 1.7vw;
+    font-weight: 545;
+}
+main .mikonos-section .included p{
+    font-size: 1.5vw;
+    margin: 0px;
+}
+main .mikonos-section .included ol{
+    font-size: 1.7vw;
+    font-weight: 545;
+    list-style-type: disc;
+    padding: 0px;
 }
