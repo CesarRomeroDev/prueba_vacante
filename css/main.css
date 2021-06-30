@@ -1,3 +1,9 @@
+:root{
+    /*colores*/
+    --santorini-grey: #dad9d6;
+    --mikonos-grey: #e0e8ea;
+    --icon-grey: #f5f3f5;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -68,7 +74,7 @@ main .main-columns .package{
 main .main-columns .package ul{
     margin: 0px;
     padding: 0px 0px 10px 15px ;
-    background: rgb(218 217 214);
+    background-color: var(--santorini-grey);
 }
 main .main-columns .package ul .santorini{
     font-weight: 800;
@@ -98,6 +104,9 @@ main .row .mikonos-section{
 main .mikonos-section img{
     width: 100%;
 }
+.duration-includ{
+    background-color: var(--mikonos-grey);
+}
 main .mikonos-section .duration{
     padding-left: 17%;
 }
@@ -118,4 +127,16 @@ main .mikonos-section .included ol{
     font-weight: 545;
     list-style-type: disc;
     padding: 0px;
+}
+main .indications{
+    box-shadow: 8px 8px 0px black;
+    font-size: 1.9vw;
+}
+main .indications .card-panel{
+    display: flex;
+    align-items: baseline;
+    padding: 0px 2px 0px 20px;
+}
+main .indications .material-icons{
+    font-size: 8vw;
 }
