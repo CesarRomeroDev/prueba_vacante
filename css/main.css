@@ -2,7 +2,7 @@
     /*colores*/
     --santorini-grey: #dad9d6;
     --mikonos-grey: #e0e8ea;
-    --icon-grey: #f5f3f5;
+    --lodging-blue: #221c35;
 }
 body{
     margin: 0px;
@@ -95,8 +95,10 @@ main .main-columns .package2 ul .sedan{
     font-weight: 800;
     font-size: 2vw;
 }
-main .main-columns .package2 ul li:nth-child(n+2) { 
-    font-size: 2vw;
+main .main-columns .package2 ul li:nth-child(n+2) {
+    margin-left: 19px;
+    font-size: 1.7vw;
+    list-style-type: disc;
 }
 main .row .mikonos-section{
     padding: 0px;
@@ -139,4 +141,69 @@ main .indications .card-panel{
 }
 main .indications .material-icons{
     font-size: 8vw;
+}
+footer .lodging{
+    width: 100%;
+    height: 10vw;
+    background-color: var(--lodging-blue);
+    margin-top: 20px;
+    padding-top: 0.9vw;
+}
+footer .center-align{
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 1.2vw;
+}
+footer .location{
+    margin-top: 10px;
+}
+footer .location .material-icons{
+    font-size: 7vw;
+}
+footer .location .day{
+    margin-left: 10px;
+
+}
+footer .location .day p{
+    margin: 0px ;
+}
+footer .location .day .san{
+    font-size: 3vw;
+    font-weight: 800;
+}
+footer .location .day .jul{
+    font-size: 1.5vw;
+}
+footer .star{
+    height: 6.5vw;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    background-color: var(--lodging-blue);
+    padding-top: 2vw;
+}
+footer .star .canaves{
+    font-size: 2vw;
+    color: white;
+    padding: 0px 0px 0px 2vw;
+    letter-spacing: 0.2vw;
+}
+footer .star .material-icons{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3vw;
+    margin:0px;
+}
+footer .room p{
+    margin: 0px;
+    font-size: 2vw;
+}
+footer .room .left{
+    padding: 0px 0px 0px 2.5vw;
+}
+footer .room .right{
+    text-align: right;
+}
+footer .room img{
+    width: 100%;
 }
